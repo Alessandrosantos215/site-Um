@@ -37,13 +37,19 @@ html, body{
 }
 
 
+
 .menu_link{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 12px;
     line-height: 16px;
     font-weight: 40px;
+    transition: background-color 0.4s ease, color 0.4s ease, font-weight 0.4s ease;
 }
+.menu_link:hover{
+    color: rgb(179, 32, 32);
+}
+
 .clear{
     clear: both;
 }
@@ -72,7 +78,15 @@ html, body{
     margin-left: 35px;
     font-size: 12px;
     font-weight: 40px;
+    transition: background-color 0.5s ease, color 0.5s ease, font-weight 0.5s ease;
+    
 
+}
+
+.bt_news:hover{
+    
+    background-color: #000;
+    border: 2px solid white;
 }
 
 
@@ -101,8 +115,15 @@ html, body{
     font-size: 14px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    transition: background-color 0.4s ease, color 0.4s ease, font-weight 0.4s ease;
     
-    
+}
+
+.saiba-mais:hover{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #00000000;
 
 }
 .apresentação_box{
@@ -110,6 +131,11 @@ html, body{
     
 
 }
+.img001{
+    border-radius: 15px;
+    width: 377px;
+    margin-left: -90px;
+ }
 
 .apresentação_descrição{
     
@@ -163,4 +189,110 @@ html, body{
     width: 1264px;
     position: relative;
 
+
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #ff0000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease, font-weight 0.5s ease;
+}
+
+input[type=submit]:hover {
+    
+    background-color: #000000;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+}
+
+.metade {
+    width: 100%;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    background: fixed;
+    background: url(/img/visao-de-escalas-de-justica-3d\ \(1\).jpg);
+}
+
+.container {
+    width: 100%;
+    overflow: hidden; /* Clear floats */
+}
+
+.mapa{
+
+    border-radius: 10px;
+}
+
+.maps{
+    border-radius: 8px;
+    width: 500px;
+    height: 330px;
+    align-items: center;
+}
+
+
+/* Footer Style */
+footer {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 11px;
+    margin: 10px 0;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.footer-bottom p {
+    margin: 0;
 }
