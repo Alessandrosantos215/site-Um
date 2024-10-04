@@ -76,17 +76,19 @@
 
      .img001{
         border-radius: 0px;
-        display: none;
+        
         
      }
 
      .apresentação_descrição{
         text-align: center;
         margin-left: 50px;
-             
+               
         
      }
-    
+    .apresentação{
+        flex-direction: column-reverse;
+    }
     
 
 
